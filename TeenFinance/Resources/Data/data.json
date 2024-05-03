@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "Housing",
+        "percentage": 0.50,
+        "amount": 25000
+    },
+    {
+        "id": 2,
+        "name": "Food",
+        "percentage": 0.10,
+        "amount": 10000
+    },
+    {
+        "id": 3,
+        "name": "Emergency Fund",
+        "percentage": 0.15,
+        "amount": 15000
+    },
+    {
+        "id": 4,
+        "name": "Groceries",
+        "percentage": 0.05,
+        "amount": 5000
+    },
+    {
+        "id": 5,
+        "name": "Healthcare",
+        "percentage": 0.20,
+        "amount": 20000
+    }
+    
+]

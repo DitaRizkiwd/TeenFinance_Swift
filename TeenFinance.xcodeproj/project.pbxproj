@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522235EA2BE3A8890016AA69 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235E92BE3A8890016AA69 /* Finance.swift */; };
+		522235EC2BE3AFD80016AA69 /* CardCategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235EB2BE3AFD80016AA69 /* CardCategoryList.swift */; };
+		522235EE2BE3FB3A0016AA69 /* MotionAnimationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235ED2BE3FB3A0016AA69 /* MotionAnimationBackground.swift */; };
+		522235F62BE4A2E90016AA69 /* InputExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235F52BE4A2E90016AA69 /* InputExpenseView.swift */; };
+		522235F92BE4A3540016AA69 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 522235F82BE4A3540016AA69 /* data.json */; };
+		522235FC2BE4A5570016AA69 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235FB2BE4A5570016AA69 /* Bundle+Ext.swift */; };
+		522235FE2BE4A6720016AA69 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522235FD2BE4A6720016AA69 /* Budget.swift */; };
+		522236022BE4B19E0016AA69 /* RestCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522236012BE4B19E0016AA69 /* RestCard.swift */; };
+		522236042BE4BC660016AA69 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522236032BE4BC660016AA69 /* ChartView.swift */; };
 		524D04C02BE3367D00F16F84 /* TeenFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04BF2BE3367D00F16F84 /* TeenFinanceApp.swift */; };
 		524D04C22BE3367D00F16F84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04C12BE3367D00F16F84 /* ContentView.swift */; };
 		524D04C42BE3367E00F16F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D04C32BE3367E00F16F84 /* Assets.xcassets */; };
 		524D04C72BE3367E00F16F84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D04C62BE3367E00F16F84 /* Preview Assets.xcassets */; };
+		524D04D22BE336FC00F16F84 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 524D04D12BE336FC00F16F84 /* GoogleGenerativeAI */; };
+		524D04D52BE33B7600F16F84 /* Inputview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04D42BE33B7600F16F84 /* Inputview.swift */; };
+		524D04DB2BE33EEA00F16F84 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 524D04DA2BE33EEA00F16F84 /* FirebaseRemoteConfig */; };
+		524D04DD2BE33EEA00F16F84 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 524D04DC2BE33EEA00F16F84 /* FirebaseRemoteConfigSwift */; };
+		524D04DF2BE3433C00F16F84 /* FinanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04DE2BE3433C00F16F84 /* FinanceModel.swift */; };
+		524D04E12BE3435B00F16F84 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04E02BE3435B00F16F84 /* Constant.swift */; };
+		524D04E32BE34C2500F16F84 /* FinanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04E22BE34C2500F16F84 /* FinanceViewModel.swift */; };
+		524D04E52BE36C2C00F16F84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 524D04E42BE36C2C00F16F84 /* GoogleService-Info.plist */; };
+		524D04E72BE36D0100F16F84 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04E62BE36D0100F16F84 /* RemoteConfigService.swift */; };
+		524D04E92BE37A6300F16F84 /* CardCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D04E82BE37A6300F16F84 /* CardCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522235E92BE3A8890016AA69 /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		522235EB2BE3AFD80016AA69 /* CardCategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCategoryList.swift; sourceTree = "<group>"; };
+		522235ED2BE3FB3A0016AA69 /* MotionAnimationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationBackground.swift; sourceTree = "<group>"; };
+		522235F52BE4A2E90016AA69 /* InputExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputExpenseView.swift; sourceTree = "<group>"; };
+		522235F82BE4A3540016AA69 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		522235FB2BE4A5570016AA69 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		522235FD2BE4A6720016AA69 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		522236012BE4B19E0016AA69 /* RestCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCard.swift; sourceTree = "<group>"; };
+		522236032BE4BC660016AA69 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		524D04BC2BE3367D00F16F84 /* TeenFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeenFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D04BF2BE3367D00F16F84 /* TeenFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenFinanceApp.swift; sourceTree = "<group>"; };
 		524D04C12BE3367D00F16F84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		524D04C32BE3367E00F16F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524D04C62BE3367E00F16F84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524D04D42BE33B7600F16F84 /* Inputview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputview.swift; sourceTree = "<group>"; };
+		524D04DE2BE3433C00F16F84 /* FinanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceModel.swift; sourceTree = "<group>"; };
+		524D04E02BE3435B00F16F84 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		524D04E22BE34C2500F16F84 /* FinanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewModel.swift; sourceTree = "<group>"; };
+		524D04E42BE36C2C00F16F84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		524D04E62BE36D0100F16F84 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		524D04E82BE37A6300F16F84 /* CardCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524D04DD2BE33EEA00F16F84 /* FirebaseRemoteConfigSwift in Frameworks */,
+				524D04D22BE336FC00F16F84 /* GoogleGenerativeAI in Frameworks */,
+				524D04DB2BE33EEA00F16F84 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522235F72BE4A2F20016AA69 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				522235F82BE4A3540016AA69 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		522235FA2BE4A52A0016AA69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				522235FB2BE4A5570016AA69 /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		524D04B32BE3367D00F16F84 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +105,14 @@
 		524D04BE2BE3367D00F16F84 /* TeenFinance */ = {
 			isa = PBXGroup;
 			children = (
-				524D04BF2BE3367D00F16F84 /* TeenFinanceApp.swift */,
-				524D04C12BE3367D00F16F84 /* ContentView.swift */,
-				524D04C32BE3367E00F16F84 /* Assets.xcassets */,
+				522235FA2BE4A52A0016AA69 /* Extensions */,
+				524D04E42BE36C2C00F16F84 /* GoogleService-Info.plist */,
+				524D04D82BE33C7F00F16F84 /* Model */,
+				524D04D72BE33C3100F16F84 /* ViewModel */,
+				524D04D62BE33C1800F16F84 /* Config */,
+				524D04CD2BE3368400F16F84 /* App */,
+				524D04CE2BE3368C00F16F84 /* View */,
+				524D04CF2BE336A900F16F84 /* Resources */,
 				524D04C52BE3367E00F16F84 /* Preview Content */,
 			);
 			path = TeenFinance;
@@ -65,6 +124,73 @@
 				524D04C62BE3367E00F16F84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		524D04CD2BE3368400F16F84 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				524D04BF2BE3367D00F16F84 /* TeenFinanceApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		524D04CE2BE3368C00F16F84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524D04D32BE33B1500F16F84 /* Component */,
+				524D04C12BE3367D00F16F84 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		524D04CF2BE336A900F16F84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522235F72BE4A2F20016AA69 /* Data */,
+				524D04C32BE3367E00F16F84 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		524D04D32BE33B1500F16F84 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				524D04D42BE33B7600F16F84 /* Inputview.swift */,
+				524D04E82BE37A6300F16F84 /* CardCategory.swift */,
+				522235EB2BE3AFD80016AA69 /* CardCategoryList.swift */,
+				522235ED2BE3FB3A0016AA69 /* MotionAnimationBackground.swift */,
+				522235F52BE4A2E90016AA69 /* InputExpenseView.swift */,
+				522236012BE4B19E0016AA69 /* RestCard.swift */,
+				522236032BE4BC660016AA69 /* ChartView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		524D04D62BE33C1800F16F84 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				524D04E62BE36D0100F16F84 /* RemoteConfigService.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		524D04D72BE33C3100F16F84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				524D04E22BE34C2500F16F84 /* FinanceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		524D04D82BE33C7F00F16F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524D04DE2BE3433C00F16F84 /* FinanceModel.swift */,
+				524D04E02BE3435B00F16F84 /* Constant.swift */,
+				522235E92BE3A8890016AA69 /* Finance.swift */,
+				522235FD2BE4A6720016AA69 /* Budget.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +209,11 @@
 			dependencies = (
 			);
 			name = TeenFinance;
+			packageProductDependencies = (
+				524D04D12BE336FC00F16F84 /* GoogleGenerativeAI */,
+				524D04DA2BE33EEA00F16F84 /* FirebaseRemoteConfig */,
+				524D04DC2BE33EEA00F16F84 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = TeenFinance;
 			productReference = 524D04BC2BE3367D00F16F84 /* TeenFinance.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +242,10 @@
 				Base,
 			);
 			mainGroup = 524D04B32BE3367D00F16F84;
+			packageReferences = (
+				524D04D02BE336FC00F16F84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				524D04D92BE33EEA00F16F84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 524D04BD2BE3367D00F16F84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				524D04C72BE3367E00F16F84 /* Preview Assets.xcassets in Resources */,
+				524D04E52BE36C2C00F16F84 /* GoogleService-Info.plist in Resources */,
 				524D04C42BE3367E00F16F84 /* Assets.xcassets in Resources */,
+				522235F92BE4A3540016AA69 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +274,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524D04D52BE33B7600F16F84 /* Inputview.swift in Sources */,
+				522236022BE4B19E0016AA69 /* RestCard.swift in Sources */,
 				524D04C22BE3367D00F16F84 /* ContentView.swift in Sources */,
+				522235FE2BE4A6720016AA69 /* Budget.swift in Sources */,
+				524D04E12BE3435B00F16F84 /* Constant.swift in Sources */,
+				524D04DF2BE3433C00F16F84 /* FinanceModel.swift in Sources */,
+				522235F62BE4A2E90016AA69 /* InputExpenseView.swift in Sources */,
+				522236042BE4BC660016AA69 /* ChartView.swift in Sources */,
 				524D04C02BE3367D00F16F84 /* TeenFinanceApp.swift in Sources */,
+				524D04E92BE37A6300F16F84 /* CardCategory.swift in Sources */,
+				524D04E32BE34C2500F16F84 /* FinanceViewModel.swift in Sources */,
+				522235EC2BE3AFD80016AA69 /* CardCategoryList.swift in Sources */,
+				522235EA2BE3A8890016AA69 /* Finance.swift in Sources */,
+				522235FC2BE4A5570016AA69 /* Bundle+Ext.swift in Sources */,
+				522235EE2BE3FB3A0016AA69 /* MotionAnimationBackground.swift in Sources */,
+				524D04E72BE36D0100F16F84 /* RemoteConfigService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +493,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		524D04D02BE336FC00F16F84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+		524D04D92BE33EEA00F16F84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		524D04D12BE336FC00F16F84 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524D04D02BE336FC00F16F84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		524D04DA2BE33EEA00F16F84 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524D04D92BE33EEA00F16F84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		524D04DC2BE33EEA00F16F84 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524D04D92BE33EEA00F16F84 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 524D04B42BE3367D00F16F84 /* Project object */;
 }
